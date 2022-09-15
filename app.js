@@ -45,8 +45,7 @@ document.getElementById('calculate').addEventListener('click', function(){
         else{
             // error and total balance reset
             document.getElementById('balance').value = '';
-            document.getElementById('total-cost').value = '';
-            document.getElementById('percent').value = '';
+            document.getElementById('total-cost').value = ''; 
             document.getElementById('total-percent').value = '';
             document.getElementById('left-balance').value = '';
             document.getElementById('err').innerText = 'You Have No Enough Money';
@@ -56,8 +55,7 @@ document.getElementById('calculate').addEventListener('click', function(){
         // error and total balance reset
         document.getElementById('err').innerText = 'Please Input a Positive Value';
         document.getElementById('total-cost').value = '';
-        document.getElementById('balance').value = '';
-        // document.getElementById('percent').value = '';
+        document.getElementById('balance').value = ''; 
         document.getElementById('total-percent').value = '';
         document.getElementById('left-balance').value = '';
     }
