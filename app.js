@@ -46,7 +46,9 @@ document.getElementById('calculate').addEventListener('click', function(){
             // error and total balance reset
             document.getElementById('balance').value = '';
             document.getElementById('total-cost').value = '';
-            // document.getElementById('left-balance').value = '';
+            document.getElementById('percent').value = '';
+            document.getElementById('total-percent').value = '';
+            document.getElementById('left-balance').value = '';
             document.getElementById('err').innerText = 'You Have No Enough Money';
         }
     }
