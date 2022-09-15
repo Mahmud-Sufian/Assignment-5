@@ -57,7 +57,7 @@ document.getElementById('calculate').addEventListener('click', function(){
         document.getElementById('err').innerText = 'Please Input a Positive Value';
         document.getElementById('total-cost').value = '';
         document.getElementById('balance').value = '';
-        document.getElementById('percent').value = '';
+        // document.getElementById('percent').value = '';
         document.getElementById('total-percent').value = '';
         document.getElementById('left-balance').value = '';
     }
