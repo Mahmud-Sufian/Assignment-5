@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <main style="width: 90%;" class="mx-auto">
+        <section class="overflow-hidden">
+            <h1 class="heading text-center">Money Doctor</h1>
+            <div class="row ">
+                <div class="col-md-8">
+                    <div  class="img-container">
+                        <img class="" src="img/money.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+
+                    <!-- salary input -->
+                    <div class="d-flex justify-content-between align-items-center mt-2">
+                        <h5 class="me-2">salary :</h5>
+                        <input id="salary" class="px-2" type="text">
+                    </div>
+
+                    <!-- cost input box -->
+                    <div class="cost-box mt-5">
+
+                        <!-- food cost -->
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="me-2">Food :</h5>
+                            <input id="food-cost" class="px-2" type="text">
+                        </div>
+
+                        <!-- rent cost -->
+                        <div class="d-flex justify-content-between align-items-center mt-2">
+                            <h5 class="me-2">Rent :</h5>
+                            <input id="rent-cost" class="px-2" type="text" >
+                        </div>
+
+                        <!-- clothes cost -->
+                        <div class="d-flex justify-content-between align-items-center mt-2">
+                            <h5 class="me-2">Clothes :</h5>
+                            <input id="cloth-cost" class="px-2" type="text" >
+                        </div>
+
+                        <!-- total cost -->
+                        <div class="d-flex justify-content-between align-items-center mt-2">
+                            <h5 class="me-2">Total Cost :</h5>
+                            <input id="total-cost" class="px-2" disabled type="text">
+                        </div>
+                    </div>
+
+                    <!-- Balance -->
+                    <div class="mt-5">
+                        <div class="d-flex justify-content-between align-items-center mt-2">
+                            <h5 class="me-2">Balance :</h5>
+                            <input id="balance" class="px-2" type="text" disabled>
+                        </div>
+                        <button id="calculate" class="my-btn py-2 rounded-pill fw-semibold w-100 mt-2">Calculate</button>
+                    </div>
+
+                    <!-- save balance --> 
+                        <div class="d-flex justify-content-between align-items-center mt-2">
+                            <h5>Save <input id="percent" class="w-25" type="text"> % = </h5>
+                            <input id="total-percent" class="px-2" type="text" disabled>
+                        </div>
+
+                        <!-- left total balance  -->
+                        <div class="d-flex justify-content-between align-items-center mt-2">
+                            <h5>Left Total Balance :</h5>
+                            <input id="left-balance" class="px-2" type="text" disabled>
+                        </div>
+                     
+
+                    <p id="err" class="text-center fw-semibold" style="color: red;"></p>
+                </div>
+            </div>
+            
+        </section>
+     </main>
+
+     <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+     <!-- my js -->
+     <script src="app.js"></script>
+</body>
+</html>

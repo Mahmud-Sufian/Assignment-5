@@ -1,0 +1,24 @@
+.heading{
+    color: rgb(219, 114, 131); 
+}
+.img-container{
+    width: 100%;
+    height: 550px;
+}
+.img-container img{
+    width: 100%;
+}
+.my-btn{
+    background: rgb(219, 114, 131);
+    color: white; 
+    border: none; 
+    letter-spacing: 2px;
+    /* overflow: hidden; */
+}
+.my-btn:hover{
+    background: rgb(185, 94, 109);
+}
+/* .bg{
+    background: rgb(255, 164, 232);  
+    
+} */
